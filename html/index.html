@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="..\js\js.js"></script>
+	<title>Landing Page</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="index.html"><img src="..\images\307246.svg" class="test-0-logo" ></a>
+			<ul class="test-0-nav">
+				<li><a  href="index.html#promotions" class="test-0-nav-1 ">Акции</a></li>
+				<li><a href="index.html#tickets" class="test-0-nav-2 ">Поиск</a></li>
+				<li><a href="login.html" class="test-0-nav-4 ">Личный кабинет</a></li>
+			</ul>
+		</header>
+		
+		<h1 style="color:#4d0224;" align="center">Основные принципы работы сервиса</h1>
+		<div class="princip">
+			<div>
+				1.	Выбрать удобную дату перелета.	
+			</div>
+			<div>
+				2.	Накопить больше 50% бронирований на рейс.	
+			</div>
+			<div>
+				3.	Получить снижение стоимости.	
+			</div>
+		</div>
+		<slider>
+			<div class="adaptivSlayder">
+
+				<input type="radio" name="kadoves" id="slaid1" checked>
+
+				<input type="radio" name="kadoves" id="slaid2">
+
+				<input type="radio" name="kadoves" id="slaid3">
+
+				<input type="radio" name="kadoves" id="slaid4">
+
+				<input type="radio" name="kadoves" id="slaid5">
+				<div class="kadoves">
+
+					<label for="slaid1"></label>
+
+					<label for="slaid2"></label>
+
+					<label for="slaid3"></label>
+					
+					<label for="slaid4"></label>
+					
+					<label for="slaid5"></label>
+
+				</div>
+				<div class="adaptivSlayderlasekun">
+					<div class="abusteku-deagulus">
+						<img src="../images/Road-Trip.jpg"/>
+						<img src="../images/plan-road-trip-tips-ideas.jpg"/>
+						<img src="../images/road-trip (1).jpg"/>
+						<img src="../images/airline-staff-never-fat-British-Airways-711420.jpg"/>
+						<img src="../images/197152c818f021a2f4db244ec5328487.jpg"/>
+					</div>
+				</div>
+			</div>
+		</slider>
+
+		<div id="tickets">
+			<h1 align="center" style="color:#4d0224">Поиск авиабилетов</h1>
+			<form action="search.html"> 
+				<label for="from" style="color:#4d0224">Город отпраления</label>
+				<input type="text" id="from" class="test-0-fd" required>
+				
+				<label for="to" style="color:#4d0224">Город прибытия</label>
+				<input type="text" id="to" class="test-0-fa" required>
+				
+				<label for="depart" style="color:#4d0224">Дата оправления</label>
+				<input type="date" id="depart" class="test-0-fdt" required>
+				
+				<label for="return" style="color:#4d0224">Дата возварщения</label>
+				<input type="date" id="return" class="test-0-fat" required>
+				
+				<label for="passengers" style="color:#4d0224">Количество пассажиров</label>
+				<input type="number" id="passengers" min="1" max="8" class="test-0-fnp" required>
+				<br>
+				<button type="submit" class="test-0-fbs" href="search.html">Найти билеты</button>
+			</form>
+		</div>
+		<h1 align="center" style="color:#4d0224" id="promotions">Акции</h1>
+
+		<div class="promotions">
+			<div class="promotions1"> 
+				<h2 class="test-0-an" align="center">Возврат и обмен билетов</h2>
+				<img src="../images/promotions/promotion1.jpg"class="test-0-ai">
+				<p class="test-0-ad ">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+				Как только все это закончится, мы продолжим исследовать этот мир так, как раньше.</p>
+				<button class="test-0-abm" id="test-0-abm3">Акция</button>
+			</div>
+			<div class="promotions2"> 
+				<h2 class="test-0-an" align="center">Лучшие предложения</h2>
+				<img src="../images/promotions/promotion2.jpg"class="test-0-ai" >
+				<p class="test-0-ad ">Чтобы снова увидеть улицы, которые были свидетелями так много. Чтобы обнять своих любимых и оглянуться, чтобы увидеть
+				через что вы прошли. И думать о новых мечтах, которые будут такими особенными!</p>
+				<button class="test-0-abm " id="test-0-abm2">Акция</button>
+			</div>
+
+
+
+			<div class="promotions3"> 
+				<h2 class="test-0-an" align="center" >Увидимся почаще</h2>
+				<img src="../images/promotions/promotion3.jpg"class="test-0-ai" >
+				<p class="test-0-ad ">С начала января мы расширяем географию полетов по России, чтобы вы могли
+				чаще видеться с любимыми. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+				<button class="test-0-abm " id="test-0-abm">Акция</button>
+			</div>
+			<div class="promotions4"> 
+				<h2 class="test-0-an" align="center">Все снова включено</h2>
+				<img src="../images/promotions/promotion4.jpg"class="test-0-ai" >
+				<p class="test-0-ad ">С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+				в день ежедневно, а рейсы по маршруту Москва — Даламан будут выполняться от трех до семи раз в неделю.</p>
+				<button class="test-0-abm " id="test-0-abm1">Акция</button>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="review" id="review">
+	<h1 align="center" class="review1">Отзывы</h1>
+	<div class="review-card">
+		<h3>John Doe</h3>
+		<p>Май 10, 2023</p>
+		<p>"У меня был большой опыт работы с этой компанией. Персонал был дружелюбным и услужливым, а обслуживание было на высшем уровне."</p>
+	</div>
+	<div class="review-card">
+		<h3>Jane Smith</h3>
+		<p>Май 8, 2023</p>
+		<p>"Я несколько раз обращался в эту компанию и всегда был впечатлен их профессионализмом и надежностью."</p>
+	</div>
+	<div class="review-card">
+		<h3>Bob Johnson</h3>
+		<p>Май 5, 2023</p>
+		<p>"Обслуживание было превосходным, и цена была очень разумной. Я определенно воспользуюсь услугами этой компании снова."</p>
+	</div>
+	<div class="review-card">
+		<h3>Sara Lee</h3>
+		<p>Май 2, 2023</p>
+		<p>"У меня возникла проблема с бронированием, но представитель службы поддержки смог решить ее быстро и эффективно."</p>
+	</div>
+	<div class="review-card">
+		<h3>Tom Smith</h3>
+		<p>Апрель 28, 2023</p>
+		<p>"Я был очень впечатлен чистотой самолетов и профессионализмом пилотов. Настоятельно рекомендую!"</p>
+	</div>
+	<div class="review-card">
+		<h3>Amy Johnson</h3>
+		<p>Апрель 25, 2023</p>
+		<p>"Покупал билет из Москвы в Ереван, рейс отменили за 4 дня до вылета. Пришлось покупать новый билет и в два раза дороже. Самая стремная авиакомпания, с которой когда-либо имел опыт. НЕ пользуйтесь услугами данной "авиакомпании". Берегите нервы и деньги."</p>
+	</div> 
+</div>
+<div class="subscription" >
+	<h1 align="center">Оформление подписки на закрытые акции</h1>
+	<h2 align="center">Адрес электронной почты</h2>
+	<form>
+		<input type="email" class="test-0-sie" placeholder="Введите адрес электронной почты" required>
+		<button type="submit" class="test-0-sbs">Оформить подписку</button>
+	</div>
+</form>
+<hr>
+<div class="site-footer1">
+	<div class="test-0-phone ">Телефон: 8 (800) 100-10-10</div>
+	<div class="test-1-footer" ><a href="index.html" class="test-1-footer">Домой</a></div>
+	<div class="test-1-footer"><a href="login.html" class="test-1-footer">Авторизоваться</a></div>
+	<div class="test-1-footer"><a href="register.html" class="test-1-footer">Зарегистрироваться</a></div>
+	<div class="test-1-footer"><a href="index.html#review" class="test-1-footer">Отзывы</a></div>
+
+	<a href="https://t.me/flightpool"><img src="..\images\free-icon-telegram-2111646.png" class="test-2-footer" ></a>
+	<a href="https://vk.com/boundless_2005"><img src="..\images\free-icon-vk-5968835.png" class="test-2-footer" ></a>
+	<a href="index.html"><img src="..\images\free-icon-instagram-2111463.png" class="test-2-footer" ></a>
+</div>
+</div>
+</body>
+</html>
